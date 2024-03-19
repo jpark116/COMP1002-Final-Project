@@ -1,0 +1,73 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+display:flex;
+flex-direction: column;
+width:100vw;
+height:100vh;
+}
+
+img
+{
+    height:10vh;
+    width:30vh;
+    margin:0;  
+}
+
+
+
+nav
+{
+    display:flex;
+    width:100vw;
+    height:11..3vh;
+    border-color: black;
+    border-style: dashed;
+}
+
+ul
+{
+    display:flex;
+    width: 100vw;
+    height:10vh;
+    list-style:none;
+    justify-content: end;
+    justify-content: space-around;
+    align-items:end;
+}
+
+
+.Menu-Links
+{
+    /* For styling links. */
+    
+    text-decoration:none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.5em;
+    
+}
+
+section
+{
+flex:4;
+width:100vw;
+border-style:dashed;
+border-color: black;
+}
+footer
+
+{
+    flex:.8;
+    width:100vw;
+}
+
+#Logo
+{
+
+    
+}
