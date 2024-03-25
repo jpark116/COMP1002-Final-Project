@@ -1,5 +1,5 @@
 Team Members
 
 1.James Park
-2.Fabian Kauser
+2.Fabiun Kauser
 3.Anthony Burgic
