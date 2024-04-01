@@ -1,0 +1,110 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+display:flex;
+flex-direction: column;
+width:100vw;
+height:100vh;
+background-color:#EAE9D1;
+flex-wrap:nowrap;
+}
+
+#Logo
+{
+    height:10.3vh;
+    width:30vh;
+    
+}
+
+
+.headermenu
+{
+    display:flex;
+    list-style:none;
+    gap:5%;
+    align-items: center;
+    padding:0% 0% 0% 0%;
+    background-color:red;
+}
+
+
+.Menu-Links
+{
+    /* For styling links. */
+    
+    text-decoration:none;
+    width:100vw;
+    font-family:fantasy;
+    font-size:1.5em;
+    color:white;
+}
+
+section
+{
+display:flex;
+flex:2;
+flex-direction: column;
+align-items:center;
+flex-wrap:nowrap;
+justify-content: center;
+margin:0;
+max-height:70vh;
+}
+
+
+.sectionimg
+{
+    height: auto%;
+    width:80% 
+}
+
+
+
+
+#slogan
+{
+
+    font-size:2.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0% 0% 1.5% 0%;
+}
+
+
+
+footer{
+display:flex;
+height:10vh;
+background-color:red;
+margin-top:auto;
+justify-content: center;
+align-items: center;
+}
+
+.gamesul
+{
+    display:flex;
+    list-style: none;
+    background-color:black;
+    justify-content: center;
+    width:80%;
+ 
+}
+
+.flins{
+    width:100%;
+    height:auto;
+    object-fit:contain;
+
+}
+
+.gamesul > li{
+    width:100%;
+    height:auto;
+}
+
+

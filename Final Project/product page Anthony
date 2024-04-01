@@ -1,0 +1,100 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- The head section contains meta-information about the document -->
+    <title>Game Boy Product Page</title>
+    <style>
+        /* CSS styles are defined here */
+        body { 
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            font-family: sans-serif;
+            border: 1px solid black; 
+        }
+		main {
+            flex: 3 3 0;
+            display: flex;
+        }
+        nav, aside, section {            
+            padding: 5px 0;            
+        }
+        nav, aside {
+             background-color:burlywood; flex:1 1 100px;
+             text-align: center; 
+        }
+		section { 
+            flex: 2 2 400px; 
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: center;
+            background-color: lightslategrey; 
+        }
+        header {
+            flex: 1;
+            background-color: lightcoral;
+        }
+        footer {
+            flex:1; 
+            background-color: lightcoral;            
+        }
+        header p, footer p {
+            margin: 0;
+            padding: 10px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+    <!-- The body section contains the content of the document -->
+<body>
+<header>
+    <h1><center>The GameBoy product page</center></h1> 
+</header>
+<main>
+    <!-- The main section contains the primary content of the document -->
+
+<section>
+    <!-- Each section typically contains a block of related content -->
+
+    <h2><U><p style="font-family: 'Times New Roman', Times, serif;">The first GameBoy</p></U></h2>
+    <img src="result.png" alt="gameboy" height="300" width="250"> 
+    <p><p style="font-family: 'Times New Roman', Times, serif;">The Game Boy is a 8-bit handheld game console, and was manufactured by Nintendo in 1989.</p>
+    <p><p style="font-family: 'Times New Roman', Times, serif;">The matrix game was a game created in 1980s.</p>
+    <h2><U><p style="font-family: 'Times New Roman', Times, serif;">Some Fun Facts about 1st Gameboy Created !</p></U></h2>
+    <img src="Typical_Tetris_Game.svg.png" alt="GameBoy box" class="center" height="300" width="250">
+    <p><p style="font-family: 'Times New Roman', Times, serif;">The first game that made the gameboy successful was called, Tetris.
+    Tetris was a really popular game back then. It Still is to this day, there's still people who enjoy playing older games still.</p>
+    <p><p style="font-family: 'Times New Roman', Times, serif;">The Original name for it was the dot matrix game.</p>
+</section>
+<section>
+    <h2><u><p style="font-family: 'Times New Roman', Times, serif;">The Product Details and how it was made.</p></u></h2>
+    <ul class="product-details">
+    
+    <img src="images.jpeg" alt="GameBoy box" class="center" height="300" width="250">
+
+    <!-- Below is an image of the box from the Gameboy -->
+
+    <img src="Screenshot 2024-03-19 at 1.57.18 PM.png" alt="GameBoy box" class="center" height="300" width="250">
+    <p><p style="font-family: 'Times New Roman', Times, serif;">The first development of the Game Boy was originally designed by Nintendo chief and 
+    engineer Gunpei yokoi and the Nintendo R&D1 team.</p>
+    <p><p style="font-family: 'Times New Roman', Times, serif;">Many Units sold in 1989. Around 118.69 million Game Boy Consoles sold that year.</p>
+    <p><p style="font-family: 'Times New Roman', Times, serif;">The game boy was first released in Japan in 1989, but then 
+    got released in North America around the late year of the 1990s.</p>
+    <p><p style="font-family: 'Times New Roman', Times, serif;">The game also came in a Variety of colours like: 
+        Off White game boy, 
+        Red and Black gameboy, 
+        all Black gameboy, 
+        Green and Black gameboy, 
+        Yellow and Black.</p>
+    </ul>
+</section>
+</main>
+<footer>
+    <!-- The footer often contains copyright information or terms of use -->
+    <p><p style="font-family: 'Times New Roman', Times, serif;">© our main product page</p></p>
+    </footer>
+</body>
