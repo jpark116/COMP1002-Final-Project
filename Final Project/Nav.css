@@ -1,4 +1,46 @@
-.box{
-    font-style:italic;
-  
+*{margin:0}
+/* Style Nav menu */
+.pageheader
+{
+    display:flex;
+    background-color:red;
+    overflow:hidden;
+    position:relative;
+
+}
+
+.pageheader #linkheader
+{
+display:none;
+padding: 30px 25px;
+}
+
+/* For styling links. */
+.pageheader a
+{
+    text-decoration:none;
+    font-family:fantasy;
+    font-size:1.5em;
+    color: white;
+    padding: 30px 25px;
+}
+
+ /*Hide links in nav menu - logo will remain showing always */
+
+
+/* Hamburger Menu */
+.pageheader a.icon {
+    background: red;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+i > div
+{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
 }
