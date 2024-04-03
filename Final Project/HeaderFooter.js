@@ -1,16 +1,35 @@
 const header = document.getElementById("header");
 
-header.innerHTML = `  <header> <nav> 
-<ul class="headermenu">
-<img id="Logo" src="Logo.png">
-    <li><a class="Menu-Links" href="Home.html">Home</a></li>
-    <li><a class="Menu-Links" href="Product.html">Products</a></li>
-    <li><a class="Menu-Links" href="Contact">Contact Us</a></li>
-    <li><a class="Menu-Links" href="About Us">About Us</a></li>
-</ul>
-</nav><header>
+header.innerHTML = `  
+<header> 
+<div class="pageheader">
+<a href="home.html" class="active">Placeholder for img</a>
 
+<!--Header links for website navigation -->
+<div id="linkheader">
+    <a href="Product.html">Product</a>
+    <a href="Contact.html">Contact</a>
+    <a href="About.html">About</a>
+</div>
+
+<!--"Hamburger function to toggle links"-->
+<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<i><div></div><div></div><div></div></a>
+<script src="Hamburger.js"></script>
+
+</div>
+<header>
     `
+    function myFunction()
+    {
+        var x = document.getElementById("linkheader");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        }
+        else {
+            x.style.display = "block";
+        }
+    }
 
     const footer = document.getElementById("footer")
 
