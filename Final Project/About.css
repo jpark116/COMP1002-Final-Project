@@ -1,0 +1,80 @@
+/* Section for about page */
+.aboutSection
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: end;
+    flex-grow:1;
+    gap:100px;
+    align-items: center;
+}
+
+/* Slogan text */
+.aboutSlogan
+{
+    padding-top:2%;
+    font-size:40px;
+    color:red;
+    
+}
+
+/*Container for cards*/
+.aboutContainer
+{
+    display:flex;
+    
+    background-color:#D9CBB0;
+    
+    /*Card container background. */
+    width:100%;
+    height:450px;
+    align-items: center;
+  
+   
+}
+
+/* Mission text */
+
+
+/* Making cards for 3 mission statements. */
+.aboutCard
+{   
+    display:flex;
+    flex-grow:1;
+    flex-direction:column;
+    align-items: center;
+    margin:100px;
+    flex-wrap:wrap;
+    overflow:hidden;
+    list-style: none;
+    width:300px;
+    height:270px;
+    background-color:beige;
+    max-width:450px;
+    padding:1.5% 0% 0% 1.5%;
+}
+
+/* Titles for mission statement cards. */
+.cardTitles
+{
+    
+    color:red;
+    font-size:20px;
+    width:100%
+
+}
+
+/* Paragraphs for Statement cards. */
+.cardContent
+{
+width:100%;
+}
+
+/* Mission statement text */
+
+.Statement
+{
+    
+}
+
+/* For the Slogan and Mission */
