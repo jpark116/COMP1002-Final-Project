@@ -7,13 +7,15 @@
     flex-grow:1;
     gap:100px;
     align-items: center;
+    padding-top:4%
 }
 
 /* Slogan text */
 .aboutSlogan
 {
-    padding-top:2%;
-    font-size:40px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:80px;
     color:red;
     
 }
@@ -48,33 +50,40 @@
     overflow:hidden;
     list-style: none;
     width:300px;
+    min-height:150px;
     height:270px;
     background-color:beige;
     max-width:450px;
-    padding:1.5% 0% 0% 1.5%;
+    padding:1.5% 1.5% 1.5% 1.5%;
+    min-width:250px;
 }
 
 /* Titles for mission statement cards. */
 .cardTitles
 {
-    
     color:red;
-    font-size:20px;
-    width:100%
-
+    font-weight:bold;
+    font-size:25px;
+    width:100%;
+    padding-bottom:15%;
+    font-family:century gothic;
 }
 
 /* Paragraphs for Statement cards. */
 .cardContent
 {
 width:100%;
+font-family:century gothic;
+
 }
 
 /* Mission statement text */
 
-.Statement
+#Statement
 {
-    
+    font-size:30px;
+    font-family:century gothic;
+
 }
 
 /* For the Slogan and Mission */
