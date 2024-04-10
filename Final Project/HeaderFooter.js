@@ -1,4 +1,6 @@
+//for the universal header for all pages.
 const header = document.getElementById("header");
+
 
 header.innerHTML = `  
 <header> 
@@ -20,6 +22,7 @@ header.innerHTML = `
 
 </menu>
     `
+    // Function which hides and displays the footer and header.
     function myFunction()
     {
         var x = document.getElementById("linkheader");
@@ -31,12 +34,14 @@ header.innerHTML = `
             x.style.display = "flex";
         }
     }
-
+// for the universal footer of all pages.
     const footer = document.getElementById("footer")
 
     footer.innerHTML=`<footer>
     <p class=footernote> Nintendo rights reserved &#169;1989. </p> 
     <p class=footernote> follow us </p>
+    <img src="socialicon.png">
 
     </footer>
     `
+        

@@ -4,6 +4,7 @@
     padding:0;
 }
 
+/* Body for all pages. */
 body
 {
     display:flex;
@@ -14,27 +15,31 @@ body
     flex-wrap:nowrap;
 }
 
+/* main section of the page */
 .homeSection
 {
     display:flex;
     justify-content: center;
     flex-wrap:nowrap;
-    flex:1;
+    min-height:100vh;
     overflow:auto;
     align-items: center;
-    padding:0px 0px 0px 30px
+    padding:0px 0px 0px 30px;
+    margin-bottom:20px;
 
 }
 
-
+/* first section image */
 .sectionimg
 {
-max-height:560px;
+min-height:600px;
+max-height:600px;
+width:auto;
 }
 
 
 
-
+/* Playing with power slogan text */
 #slogan
 {
     width:20%;
@@ -46,26 +51,37 @@ max-height:560px;
 }
 
 
-
+/* Properties of the footer for all pages of website. */
 #footer{
 
     display:flex;
-    background-color:rgb(255, 0, 0, .75);
+    background-color:red;
     width:100%;
     justify-content:center;
-    min-height:150px;
+    align-items: center;
+    min-height:400px;
 }
 
+/* sizing and positioning for megaman and flinstones images */
 .flins{
     display:flex;
     flex:2;
-    max-height:560px;
+    min-height:600px;
+    max-height:600px;
 
+}
+
+/* footer text styling for all pages */
+#footer p{
+    font-size:25px;
+    font-style: bold;
+    color:white;
+    text-align: center;
 }
 
 
 
-
+/* media controls to hide and show hamburger menu aswell as change layout of mainpage to a vertical layout. */
 @media screen and (max-width: 1100px){
     .flins{
         display:none;
@@ -83,5 +99,4 @@ max-height:560px;
     
        
 }
-
 

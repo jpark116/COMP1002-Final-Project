@@ -1,0 +1,102 @@
+#contactSection{
+    margin:5%;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    width:90%;
+    min-height:70vh;
+
+}
+
+
+#contact{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    width:100%;
+    gap:5%;
+    margin:2%;
+    padding:2%;
+}
+
+.container{
+    margin:3%;
+    display:flex;
+    border-style:solid;
+    width:700px;
+    height:120px;
+    background-image:url(wallpaper.jpg);
+    margin:2%;
+    
+}
+
+#phonenum
+{
+    font-size: 1.5em;
+    margin:1%
+}
+
+#address{
+    font-size:1.5em;
+    text-align:center;
+
+}
+#concern{
+    display:flex;
+    flex-direction:column;
+    width:700px;
+    align-items: center;
+    height:270px;
+}
+/* Message textbox to voice inquiry or concern */
+#largeMessage{
+    width:400px;
+    height:200px;
+    border-width:3px;
+    text-align: start;
+    overflow:wrap;
+    
+}
+
+
+.newline{display:flex;
+    justify-content: space-evenly;
+    margin-right:5%;
+
+}
+
+.identity{
+    
+}
+
+.border{
+    border-style:solid;
+    width:700px;
+    padding:2%;
+    background-image:url(wallpaper.jpg);
+}
+
+#concern select{
+    margin:10%;
+}
+
+/* for submit button */
+#submitButton{
+    font-size:15px;
+    margin:2%;
+    padding:1% 3%;
+    background-color:#DCDCDC;
+    border-color:silver;
+}
+
+input[type=text]
+{
+    border-radius:10px;
+    height:21.5px
+}
+
+/* adjust the text area for the message */
+textarea{border-radius:10px;
+overflow:auto;
+resize:none;
+font-size:20px;}

@@ -1,0 +1,139 @@
+/* main section of the product page */
+.productSection{
+    display:flex;
+    align-items: center;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    width:80vw;
+    min-height:100vh;
+    margin:4% auto;
+    border:solid;
+    border-color:black;
+    background-color:#28282B
+    
+}
+
+/* container for features cards */
+.contentContainer{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin:5% 0% 0% 0%;
+    
+
+}
+
+/* for the 3 features cards. */
+.features{
+    display:flex;
+    flex-direction:column;
+    width:250px;
+    max-height:250px;
+    background-color:grey;
+    border-color:black;
+    border-style:solid;
+    padding:5%;
+    margin:2%;
+    
+}
+
+/* for the text in the feature cards */
+
+.featuretext{
+    display:flex;
+    font-size:20px;
+    justify-content:center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:30px;
+    font-weight:bold;
+}
+
+/* for the main product image */
+#productImage{
+display:flex;
+margin-top:4%;
+border-style:solid;
+border-radius:5%;
+}
+
+/* for images in features cards */
+.featureImage{
+    display:flex;
+    height:70%;
+    width:100%;
+}
+
+/* css for button */
+#buyButton
+{
+
+    font-size:50px;
+    background-color:green;
+    margin-bottom:2%;
+    border-style:solid;
+    padding:1%;
+    font-style:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:20px;
+    border-color:darkgreen;
+    border-width:3px;
+    margin-bottom:5%;
+    
+}
+/* buy button hover effect */
+#buyButton:hover{opacity:.5}
+
+/* section for price and purchasing */
+.price{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+/* for Price tag of unit */
+
+#priceText{
+    font-size:60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom:2%
+
+}
+/* default webpage text. */
+.default{
+    display:flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+    margin:-2%;
+}
+
+/* Information square above buy button */
+#card{
+    max-height:400px;
+    width:450px;
+    background-color:beige;
+    border-style:solid;
+    border-color:black;
+    padding:2%;
+    margin-bottom:4%
+}
+
+/* for points in card */
+#cardList{
+    list-style-image: url(mushroom.png);
+    list-style-position:inside;
+    
+    
+}
+
+/* Title of the card */
+#cardTitle{
+    text-align: center;
+    margin-bottom:6%
+}
+
+/* Gameboy Title */
+
+.Title{
+    font-size:50px;
+    color:white;
+}

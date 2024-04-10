@@ -4,30 +4,59 @@
         <!--linking all stylesheets-->
         <link rel="stylesheet" href="Main.css">
         <link rel="stylesheet" href="Nav.css">
-        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="Contact.css">
     </head>
     
     <body>
-        <div class="contact-container">
-            <!--API for receiving information via mail-->
-            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
-                <div class="contact-left-title">
-                    <h2>Get in touch</h2>
-                    <hr>
-                </div>
-                <!--API access key-->
-                <input type="hidden" name="access_key" value="692378f1-bee5-4b15-81d0-6445f7140003">
+        <header id="header"></header>
+        <section id="contactSection">
+            <img src="phone1.png" width=100px height=80px>
+            
+            <p id="phonenum">(425) 861-2055</p>
+            <p id="address">Nintendo Head Office<br>25 Mushroom Road<br>Redmond, WA, 32104</p>
+            
+            
+            <div class="container">
+                <form id="contact">
+                    <div class="newline"> 
+                        <div class="identity">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="identity">
+                            <label for="email">Email:</label>
+                            <input type="text">
+                        </div>
+                    </div>
 
-
-                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                <input type="email" name="email" placeholder="Your email" class="contact-inputs" required>
-                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-                <button type="submit" >Submit <img src="arrow_icon.png" alt=""></button>
-            </form>
-            <div class="contact-right">
-                <img src="right_img.png" alt="">
+                   <div class="identity">
+                        <label for="phone" class=>Phone Number:</label>
+                        <input type="text" id="phone">
+                   </div>
+                </form>
             </div>
-        </div>
+            <div class="border">
+                <form id="concern">
+                    <div><label for="issue"></label>
+                        <select name="Issue">
+                        <option value="">Reason for contacting...</option>
+                        <option value="Product">Inquiry about a product</option>
+                        <option value="Issue">Issue with a product</option>
+                        <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div id="concern">
+                        <label for="message">Message</label>
+                        <textarea id="largeMessage"></textarea>
+                    </div>
+                </form>
+
+            </div>
+            <button type="submit" id="submitButton">Send</button>
+            
+        </section>
+        <footer id="footer"></footer>
+        <script src="HeaderFooter.js"></script> 
     </body>
 
 </html>

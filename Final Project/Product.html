@@ -6,10 +6,48 @@
         <title>Gameboy</title>
         <link rel="stylesheet" href="Main.css">
         <link rel="stylesheet" href="Nav.css">
+        <link rel="stylesheet" href="Product.css">
     </head>
     <body>
         <header id="header"></header>
-        <section class="homeSection"></section>
+        <section class="productSection">
+            <h1 class="Title">First Portable Nintendo!<br></h1>
+            <img src="gameboytitle..png" width="500px" height="90px">
+            <img src="gameboy.jpg"width=1000px height="700px" id="productImage">
+            
+            <div class="contentContainer">
+                <div class="features">
+                     <p class="featuretext">Portable!</p>
+                     <img src="portable.png" class="featureImage">
+                     <p class="default">Take the device with you anywhere you go<br>Dimensions 148 x 90 x 32 mm<br>220g weight</p>
+                </div>
+                <div class="features">
+                    <P class="featuretext">Battery Life!</P>
+                    <img src="battery.png" class="featureImage">
+                    <p class="default">Portable built in batttery system.<br> 15 hour of continuous gameplay on charge.</p>
+                </div>
+                <div class="features">
+                    <p class="featuretext">Built to Last!</p>
+                    <img src="buildt.png" class="featureImage">
+                    <p class="default">Strong reinforced thick plastic shell.<br>Hard to break.</p>
+                </div>
+            </div>
+        </section>
+        <section2 class="price">
+            
+            <card id="card">
+                <h2 class="featuretext">Features</h2>
+                <ul id="cardList">
+                    <li>STN LCD 160 x 144px</li>
+                    <li>Custom 8-bit sharp LR35902 4.1MHZ processor.</li>
+                    <li>2-bit color green and gray</li>
+                    <li>Speakers for sound with headphone jack.</li>
+                    <li>STN LCD 160 x 144px</li>
+                </ul>
+            </card>
+            <h2 id="priceText">$89 CAD</h2>
+            <button type="button" id="buyButton">Buy Now!</button>
+        </section2>
         <footer id="footer"></footer>
         <script src="HeaderFooter.js"></script>
     </body>
