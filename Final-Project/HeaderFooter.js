@@ -5,7 +5,7 @@ const header = document.getElementById("header");
 header.innerHTML = `  
 <header> 
 <div class="pageheader">
-<a href="index.html" class="active"><img src=Logo.png class="Logo"></a>
+<a href="https://jpark116.github.io/COMP1002-Final-Project/Final-Project/index.html" class="active"><img src=Logo.png class="Logo"></a>
 
 <!--Header links for website navigation -->
 <div id="linkheader">
