@@ -4,7 +4,7 @@
     align-items: center;
     flex-wrap:nowrap;
     flex-direction: column;
-    width:80vw;
+    width:100vw;
     min-height:100vh;
     margin:4% auto;
     border:solid;
@@ -72,7 +72,7 @@ border-radius:5%;
     margin-bottom:2%;
     border-style:solid;
     padding:1%;
-    font-style:bold;
+    font-weight:bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     border-radius:20px;
     border-color:darkgreen;
