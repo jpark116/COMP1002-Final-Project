@@ -3,11 +3,13 @@
 {
     display:flex;
     flex-direction:column;
-    justify-content: end;
-    flex-grow:1;
-    gap:100px;
-    align-items: center;
-    padding-top:4%
+    justify-content: start;
+    background-image:url(pixelback.png);
+    min-height:100vh;
+    background-size:100%;
+    background-repeat:no-repeat;
+    width:100vw;
+
 }
 
 /* Slogan text */
@@ -18,6 +20,9 @@
     font-size:80px;
     color:red;
     text-align: center;
+    font-weight:bold;
+    -webkit-text-stroke-color:black;
+    -webkit-text-stroke-width: 1px;
     
 }
 
@@ -25,12 +30,11 @@
 .aboutContainer
 {
     display:flex;
-    
+    margin-top:30%;   
     background-color:#D9CBB0;
-    
     /*Card container background. */
     width:100%;
-    height:450px;
+    height:100%;
     align-items: center;
   
    
@@ -82,11 +86,19 @@ font-family:century gothic;
 
 #Statement
 {
-    font-size:30px;
+    text-align: center;
+    font-size:40px;
     font-family:century gothic;
-
+    color:black;
+    -webkit-text-stroke-color:white;
+    -webkit-text-stroke-width: 2px;
+    font-weight:bold;
 }
 
-/* For the Slogan and Mission */
+.background{
+    display:flex;
+    flex-direction: column;
+    margin-top:20%;
+    height:5vh;}
 
 
